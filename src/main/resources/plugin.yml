@@ -1,0 +1,18 @@
+name: TheBruhTimeNPCBuilders
+version: 1.2.0
+main: com.thebruhtime.npcbuilders.TheBruhTimeNPCBuilders
+api-version: '1.21'
+
+depend:
+  - Citizens
+
+commands:
+  npcbuilder:
+    description: Controls the six builder NPCs.
+    usage: /npcbuilder <spawnteam|build|removeall|list>
+    permission: thebruhtime.npcbuilders
+
+permissions:
+  thebruhtime.npcbuilders:
+    description: Allows use of TheBruhTime NPC Builder commands.
+    default: op
